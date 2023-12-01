@@ -1,0 +1,5 @@
+const Web3 = require('web3');
+
+const client = new Web3('endpoint here');
+const balance = await client.eth.getBalance('address here');
+console.log(balance);
